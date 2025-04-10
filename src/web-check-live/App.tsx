@@ -24,7 +24,6 @@ export default function App() {
         <Route path="/check" element={<Layout />}>
           <Route index element={<Home />} />
           <Route path="home" element={<Home />} />
-          <Route path="about" element={<About />} />
           <Route path=":urlToScan" element={<Results />} />
           <Route path="*" element={<NotFound />} />
         </Route>
