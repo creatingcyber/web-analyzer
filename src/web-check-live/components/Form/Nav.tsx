@@ -21,7 +21,16 @@ const Nav = (props: { children?: ReactNode }) => {
   return (
     <Header as="header">
       <Heading color={colors.primary} size="large">
-        <img width="128" src="/web-check-esteban.png" alt="Web Analyzer Icon" />
+        <img
+          style={{
+            width: "240px",
+            height: "100px",
+            marginRight: "10px",
+            verticalAlign: "middle",
+          }}
+          src="/web-check-esteban.png"
+          alt="Web Analyzer Icon"
+        />
         <a href="/" target="_self">
           Web Analyzer
         </a>

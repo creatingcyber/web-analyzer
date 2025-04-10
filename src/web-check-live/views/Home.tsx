@@ -232,8 +232,10 @@ const Home = (): JSX.Element => {
               src="/web-check-esteban.png"
               alt="Web Analyzer Icon"
               style={{
-                width: "300px",
-                height: "125px",
+                width: "240px",
+                height: "100px",
+                marginRight: "10px",
+                verticalAlign: "middle",
               }}
             />
             Web Analyzer
