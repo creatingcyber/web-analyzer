@@ -228,7 +228,14 @@ const Home = (): JSX.Element => {
       <UserInputMain onSubmit={formSubmitEvent}>
         <a href="/">
           <Heading as="h1" size="xLarge" align="center" color={colors.primary}>
-            <img width="64" src="/web-check.png" alt="Web Analyzer Icon" />
+            <img
+              src="/web-check-esteban.png"
+              alt="Web Analyzer Icon"
+              style={{
+                width: "300px",
+                height: "125px",
+              }}
+            />
             Web Analyzer
           </Heading>
         </a>
@@ -290,7 +297,7 @@ const Home = (): JSX.Element => {
             <img
               width="120"
               alt="Terminal Trove"
-              src="https://i.ibb.co/NKtYjJ1/terminal-trove-web-check.png"
+              src="https://i.ibb.co/NKtYjJ1/terminal-trove-web-check-esteban.png"
             />
           </a>
         </div>
