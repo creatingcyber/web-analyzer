@@ -2,7 +2,6 @@ import { Routes, Route, Outlet } from "react-router-dom";
 
 import Home from "web-check-live/views/Home.tsx";
 import Results from "web-check-live/views/Results.tsx";
-import About from "web-check-live/views/About.tsx";
 import NotFound from "web-check-live/views/NotFound.tsx";
 
 import ErrorBoundary from "web-check-live/components/boundaries/PageError.tsx";
