@@ -1,21 +1,21 @@
-import { Routes, Route, Outlet } from 'react-router-dom';
+import { Routes, Route, Outlet } from "react-router-dom";
 
-import Home from 'web-check-live/views/Home.tsx';
-import Results from 'web-check-live/views/Results.tsx';
-import About from 'web-check-live/views/About.tsx';
-import NotFound from 'web-check-live/views/NotFound.tsx';
+import Home from "web-check-live/views/Home.tsx";
+import Results from "web-check-live/views/Results.tsx";
+import About from "web-check-live/views/About.tsx";
+import NotFound from "web-check-live/views/NotFound.tsx";
 
-import ErrorBoundary from 'web-check-live/components/boundaries/PageError.tsx';
-import GlobalStyles from './styles/globals.tsx';
+import ErrorBoundary from "web-check-live/components/boundaries/PageError.tsx";
+import GlobalStyles from "./styles/globals.tsx";
 
 const Layout = () => {
   return (
-  <>
-    <GlobalStyles />
-    <Outlet />
-  </>
+    <>
+      <GlobalStyles />
+      <Outlet />
+    </>
   );
-}
+};
 
 export default function App() {
   return (
