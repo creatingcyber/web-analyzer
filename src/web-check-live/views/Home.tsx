@@ -155,13 +155,13 @@ const Home = (): JSX.Element => {
   const location = useLocation();
 
   /* Redirect strait to results, if somehow we land on /check?url=[] */
-  useEffect(() => {
-    const query = new URLSearchParams(location.search);
-    const urlFromQuery = query.get("url");
-    if (urlFromQuery) {
-      navigate(`/check/${encodeURIComponent(urlFromQuery)}`, { replace: true });
-    }
-  }, [navigate, location.search]);
+  // useEffect(() => {
+  //   const query = new URLSearchParams(location.search);
+  //   const urlFromQuery = query.get("url");
+  //   if (urlFromQuery) {
+  //     navigate(`/check/${encodeURIComponent(urlFromQuery)}`, { replace: true });
+  //   }
+  // }, [navigate, location.search]);
 
   /* Check is valid address, either show err or redirect to results page */
   const submit = () => {
@@ -309,30 +309,6 @@ const Home = (): JSX.Element => {
             </li>
           </ul>
         </div>
-        {/* <div className="links">
-          <a
-            target="_blank"
-            rel="noreferrer"
-            href="https://github.com/lissy93/web-check"
-            title="Check out the source code and documentation on GitHub, and get support or contribute"
-          >
-            <Button>View on GitHub</Button>
-          </a>
-          <a
-            target="_blank"
-            rel="noreferrer"
-            href="https://app.netlify.com/start/deploy?repository=https://github.com/lissy93/web-check"
-            title="Deploy your own private or public instance of Web-Check to Netlify"
-          >
-            <Button>Deploy your own</Button>
-          </a>
-          <Link
-            to="/about#api-documentation"
-            title="View the API documentation, to use Web-Check programmatically"
-          >
-            <Button>API Docs</Button>
-          </Link>
-        </div> */}
       </SiteFeaturesWrapper>
       <Footer isFixed={true} />
     </HomeContainer>

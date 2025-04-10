@@ -13,7 +13,6 @@ import type { RowProps } from "web-check-live/components/Form/Row";
 
 import Loader from "web-check-live/components/misc/Loader";
 import ErrorBoundary from "web-check-live/components/misc/ErrorBoundary";
-import SelfScanMsg from "web-check-live/components/misc/SelfScanMsg";
 import DocContent from "web-check-live/components/misc/DocContent";
 import ProgressBar, {
   type LoadingJob,
@@ -1084,13 +1083,6 @@ const Results = (props: { address?: string }): JSX.Element => {
             </a>
             <a href="/about#additional-resources">
               <span className="toggle-filters">More tools</span>
-            </a>
-            <a
-              target="_blank"
-              rel="noreferrer"
-              href="https://github.com/lissy93/web-check"
-            >
-              <span className="toggle-filters">View GitHub</span>
             </a>
           </div>
         )}
