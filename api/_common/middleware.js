@@ -41,7 +41,7 @@ const timeoutErrorMsg =
   "remain freely available for everyone.";
 
 const disabledErrorMsg =
-  "Error - WebCheck Temporarily Disabled.\n\n" +
+  "Error - WebAnalyzer Temporarily Disabled.\n\n" +
   "We're sorry, but due to the increased cost of running Web Analyzer " +
   "we've had to temporatily disable the public instand. " +
   "We're activley looking for affordable ways to keep Web Analyzer running, " +

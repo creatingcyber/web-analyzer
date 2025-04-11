@@ -95,7 +95,7 @@ const CardStyles = `
 const resources = [
   {
     title: "Hudson Rock",
-    link: "https://hudsonrock.com/free-tools/?=webcheck",
+    link: "https://hudsonrock.com/free-tools/?=webanalyzer",
     icon: "https://i.ibb.co/0rF3rZh/logo-1-967abb2c.png",
     description:
       "Identify Infostealer infection data related to domains and emails",
