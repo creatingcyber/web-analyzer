@@ -313,9 +313,6 @@ const Home = (): JSX.Element => {
             {docs.map((doc, index) => (
               <li key={index}>{doc.title}</li>
             ))}
-            <li>
-              <Link to="/about">+ more!</Link>
-            </li>
           </ul>
         </div>
       </SiteFeaturesWrapper>

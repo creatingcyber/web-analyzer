@@ -20,7 +20,6 @@ import ProgressBar, {
   initialJobs,
 } from "web-check-live/components/misc/ProgressBar";
 import ActionButtons from "web-check-live/components/misc/ActionButtons";
-import AdditionalResources from "web-check-live/components/misc/AdditionalResources";
 import ViewRaw from "web-check-live/components/misc/ViewRaw";
 
 import ServerLocationCard from "web-check-live/components/Results/ServerLocation";
@@ -1133,7 +1132,6 @@ const Results = (props: { address?: string }): JSX.Element => {
         </Masonry>
       </ResultsContent>
       <ViewRaw everything={resultCardData} />
-      <AdditionalResources url={address} />
       <Footer />
       <Modal isOpen={modalOpen} closeModal={() => setModalOpen(false)}>
         {modalContent}
