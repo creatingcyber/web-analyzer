@@ -36,7 +36,7 @@ const {
 } = Astro.props;
 
 // Set non-customizable values for meta tags, from the siteInfo
-const { site, author, twitter, analytics, titleLong } = siteInfo;
+const { site, author, analytics, titleLong } = siteInfo;
 
 // Given a map of breadcrumbs, return the JSON-LD for the BreadcrumbList schema
 const makeBreadcrumbs = () => {
@@ -85,8 +85,6 @@ const makeBreadcrumbs = () => {
 <meta name="twitter:description" content={description}>
 <meta name="twitter:image" content=`${site}/banner.png`}>
 <link rel="twitter:image" sizes="180x180" href={`${site}/apple-touch-icon.png`}>
-<meta name="twitter:site" content={twitter}>
-<meta name="twitter:creator" content={twitter}>
 
 <!-- Non-tracking hit counter -->
 {analytics.enable && (
